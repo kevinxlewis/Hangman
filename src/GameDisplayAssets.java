@@ -4,11 +4,7 @@ public class GameDisplayAssets {
         // to the amount of times a player has an incorrect guess.
         System.out.println(" _________ ");
         System.out.println(" |       |");
-//        for(int i = 0; i < 5; i++) {
-//            System.out.println(" |");
-//        }
-        // Checking number of times player has an incorrect guess
-        // and drawing bits of the man accordingly
+
         if(numberOfWrongGuesses >= 1) {
             System.out.println(" O");
         }
@@ -29,9 +25,9 @@ public class GameDisplayAssets {
                 System.out.println("\\");
             } else {
                 System.out.println("");
-                System.out.println();
             }
         }
+        System.out.println();
         System.out.println();
     }
 }
